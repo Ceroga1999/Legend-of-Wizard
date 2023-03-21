@@ -1,16 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Batut : MonoBehaviour
+public class JumpPad : MonoBehaviour
 {
-    [Header("Óïðóãîñòü áàòóòà")]
-    [Space]
     [SerializeField] private float _force;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Player")
+        if (collision.gameObject.TryGetComponent(out PlayerMovement player))
         {
             collision.rigidbody.AddForce(Vector2.up * _force, ForceMode2D.Impulse);
         }

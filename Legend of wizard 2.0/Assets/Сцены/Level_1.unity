@@ -657,8 +657,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6568badaa7f25ee4ba2623c1843764ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  position1: 14.6
-  position2: -0.5
+  speed: 2
+  _upPosition: {fileID: 0}
+  _downPosition: {fileID: 0}
 --- !u!1 &70154230
 GameObject:
   m_ObjectHideFlags: 0
@@ -1098,11 +1099,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 94555562}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e84c44e4acaad5146853a4b95c67f785, type: 3}
+  m_Script: {fileID: 11500000, guid: 16e431c6f39c8084fb546427d00b0a1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pos1: 65.7
-  pos2: 56
 --- !u!95 &94555567
 Animator:
   serializedVersion: 5
@@ -10028,18 +10027,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1113058882626876481, guid: 42e73c2240c68fe40813429d4091574b, type: 3}
-      propertyPath: spawn1
-      value: 
-      objectReference: {fileID: 7626326663128028524, guid: 7d149c6af30c9f142b2a77ca74523de5, type: 3}
     - target: {fileID: 1113058882626876491, guid: 42e73c2240c68fe40813429d4091574b, type: 3}
       propertyPath: m_Name
       value: "\u0413\u0413 \u043F\u0440\u043E\u0441\u0442\u043E \u0441\u0435\u0433\u044B\u0439
         \u043C\u0430\u0433 1"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1113058882626876491, guid: 42e73c2240c68fe40813429d4091574b, type: 3}
-      propertyPath: m_TagString
-      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 1113058882626876494, guid: 42e73c2240c68fe40813429d4091574b, type: 3}
       propertyPath: m_RootOrder
@@ -15886,11 +15877,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1432994141}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e84c44e4acaad5146853a4b95c67f785, type: 3}
+  m_Script: {fileID: 11500000, guid: 16e431c6f39c8084fb546427d00b0a1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pos1: 83.8
-  pos2: 75.8
 --- !u!95 &1432994146
 Animator:
   serializedVersion: 5
@@ -94439,11 +94428,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1612808044}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e84c44e4acaad5146853a4b95c67f785, type: 3}
+  m_Script: {fileID: 11500000, guid: 16e431c6f39c8084fb546427d00b0a1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pos1: 44.7
-  pos2: 22
 --- !u!95 &1612808049
 Animator:
   serializedVersion: 5
@@ -95419,11 +95406,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1714059592}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e84c44e4acaad5146853a4b95c67f785, type: 3}
+  m_Script: {fileID: 11500000, guid: 16e431c6f39c8084fb546427d00b0a1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pos1: 35
-  pos2: 29.1
 --- !u!50 &1714059597
 Rigidbody2D:
   serializedVersion: 4
@@ -96398,8 +96383,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6568badaa7f25ee4ba2623c1843764ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  position1: 48
-  position2: 29.5
+  speed: 2
+  _upPosition: {fileID: 0}
+  _downPosition: {fileID: 0}
 --- !u!68 &1825100005
 EdgeCollider2D:
   m_ObjectHideFlags: 0

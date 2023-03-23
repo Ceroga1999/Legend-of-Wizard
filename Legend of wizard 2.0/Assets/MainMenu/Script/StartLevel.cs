@@ -7,4 +7,9 @@ public class StartLevel : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+
+    public void ToSettings()
+    {
+        SceneManager.LoadScene(4);
+    }
 }

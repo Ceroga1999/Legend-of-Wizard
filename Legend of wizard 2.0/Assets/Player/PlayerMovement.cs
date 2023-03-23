@@ -3,7 +3,9 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float _speed;
+    [SerializeField] private float _jumpForce;
     [SerializeField] private Animator animator;
+    [SerializeField] private Transform _bulletSpawnPoint;
 
     private Rigidbody2D _rigitBody;
     private bool isJump;
@@ -29,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && isJump == false)
         {
-            _rigitBody.AddForce(transform.up * 5, ForceMode2D.Impulse);
+            _rigitBody.AddForce(transform.up * _jumpForce, ForceMode2D.Impulse);
             isJump = true;
             animator.SetBool("isJumping", isJump);
         }
@@ -40,10 +42,12 @@ public class PlayerMovement : MonoBehaviour
         if (_moveInput > 0)
         {
             gameObject.transform.localScale = new Vector3(1, 1, 1);
+            _bulletSpawnPoint.localEulerAngles = new Vector3(0, 0, 0);
         }
         if (_moveInput < 0)
         {
             gameObject.transform.localScale = new Vector3(-1, 1, 1);
+            _bulletSpawnPoint.localEulerAngles = new Vector3(0, 0, 180);
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)

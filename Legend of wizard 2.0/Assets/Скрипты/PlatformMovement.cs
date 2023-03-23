@@ -2,18 +2,28 @@ using UnityEngine;
 
 public class PlatformMovement : MonoBehaviour
 {
-    [SerializeField] private float speed = 2f;
-    [SerializeField] private Transform _upPosition, _downPosition;
+    [SerializeField] private float _speed = 2f;
+    [SerializeField] private float _upPosition, _downPosition;
+    bool moving = true;
 
-    void Update()
+    void FixedUpdate()
     {
-        if (transform.position.y > _upPosition.position.y)
+        if (transform.position.y >= _upPosition)
         {
-            transform.position = Vector2.MoveTowards(transform.position, _downPosition.position, speed * Time.deltaTime);
+            moving = false;
         }
-        else if (transform.position.y < _downPosition.position.y)
+        else if (transform.position.y <= _downPosition)
         {
-            transform.position = Vector2.MoveTowards(transform.position, _upPosition.position, speed * Time.deltaTime);
+            moving = true;
+        }
+
+        if (moving)
+        {
+            transform.position = new Vector2(transform.position.x, transform.position.y + _speed * Time.fixedDeltaTime);
+        }
+        else
+        {
+            transform.position = new Vector2(transform.position.x, transform.position.y - _speed * Time.fixedDeltaTime);
         }
     }
 }

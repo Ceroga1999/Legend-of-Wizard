@@ -1,13 +1,15 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
-    [SerializeField] private List<GameObject> _heart = new List<GameObject>();
+    [SerializeField] private Sprite _sprite;
+    [SerializeField] private List<Image> _heart = new List<Image>();
     public void OnDamage()
     {
-        GameObject _last = _heart[_heart.Count - 1];
-        _last.SetActive(false);
-        _heart.Remove(_last);
+        Image last = _heart[_heart.Count - 1];
+        last.sprite = _sprite;
+        _heart.Remove(last);
     } 
 }

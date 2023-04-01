@@ -239,7 +239,6 @@ Transform:
   - {fileID: 1670002943}
   - {fileID: 393571904}
   - {fileID: 2140681531}
-  - {fileID: 276830897}
   - {fileID: 1928388465}
   - {fileID: 801700280}
   - {fileID: 1629604561}
@@ -1012,7 +1011,7 @@ GameObject:
   - component: {fileID: 94555564}
   m_Layer: 0
   m_Name: "\u0421\u043B\u0430\u0439\u043C3"
-  m_TagString: Slime
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1123,6 +1122,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &94555568
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1928,13 +1928,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276830896}
-  m_LocalRotation: {x: -0, y: -0, z: -0.28382382, w: 0.95887643}
-  m_LocalPosition: {x: 0.38, y: -0.11, z: -0.2593408}
+  m_LocalRotation: {x: -0, y: -0, z: -0.6200652, w: 0.7845503}
+  m_LocalPosition: {x: 1.3322611, y: -0.5619014, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 27025864}
-  m_RootOrder: 4
+  m_Father: {fileID: 1928388465}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -32.977}
 --- !u!212 &276830898
 SpriteRenderer:
@@ -7624,6 +7624,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &459602276
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9507,10 +9508,11 @@ GameObject:
   m_Component:
   - component: {fileID: 791420820}
   - component: {fileID: 791420822}
-  - component: {fileID: 791420821}
+  - component: {fileID: 791420824}
+  - component: {fileID: 791420823}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_21
-  m_TagString: Lian
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4
@@ -9530,33 +9532,6 @@ Transform:
   m_Father: {fileID: 968168049}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!68 &791420821
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 791420819}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -0.15250279, y: 0.50204474}
-  - {x: -0.11533217, y: 0.19543663}
-  - {x: -0.19439545, y: -0.17034711}
-  - {x: -0.1483183, y: -0.63730615}
-  - {x: 0.15279998, y: -0.644783}
-  - {x: 0.12097511, y: -0.30547324}
-  - {x: 0.19177657, y: 0.49353415}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
 --- !u!212 &791420822
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9609,6 +9584,44 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &791420823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791420819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9be4ff606f611ef468909f1fa5de99ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &791420824
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791420819}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.014072489, y: -0.045284152}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.48828125, y: 2.9414062}
+    newSize: {x: 0.48828125, y: 2.9414062}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.24822238, y: 1.0909425}
+  m_EdgeRadius: 0
 --- !u!1 &797651085
 GameObject:
   m_ObjectHideFlags: 0
@@ -9859,7 +9872,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 27025864}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -36.925}
 --- !u!212 &801700281
 SpriteRenderer:
@@ -10189,6 +10202,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &814929797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10356,23 +10370,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1113058882626876494, guid: 42e73c2240c68fe40813429d4091574b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.9999999
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1113058882626876494, guid: 42e73c2240c68fe40813429d4091574b, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.9999999
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1113058882626876494, guid: 42e73c2240c68fe40813429d4091574b, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.99999994
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1113058882626876494, guid: 42e73c2240c68fe40813429d4091574b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.049926758
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1113058882626876494, guid: 42e73c2240c68fe40813429d4091574b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.6798096
+      value: -0.84
       objectReference: {fileID: 0}
     - target: {fileID: 1113058882626876494, guid: 42e73c2240c68fe40813429d4091574b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11251,10 +11265,11 @@ GameObject:
   m_Component:
   - component: {fileID: 929744885}
   - component: {fileID: 929744887}
-  - component: {fileID: 929744886}
+  - component: {fileID: 929744889}
+  - component: {fileID: 929744888}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_20
-  m_TagString: Lian
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4
@@ -11274,34 +11289,6 @@ Transform:
   m_Father: {fileID: 968168049}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!68 &929744886
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 929744884}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -0.41842762, y: 0.36306003}
-  - {x: -0.27006105, y: -0.06807314}
-  - {x: -0.012500018, y: -0.46984854}
-  - {x: -0.10116093, y: -0.69352525}
-  - {x: 0.20645186, y: -0.75672525}
-  - {x: 0.26406187, y: -0.44676962}
-  - {x: 0.12597054, y: -0.10697352}
-  - {x: -0.057219353, y: 0.39426237}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
 --- !u!212 &929744887
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11354,6 +11341,44 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &929744888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929744884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9be4ff606f611ef468909f1fa5de99ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &929744889
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929744884}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.07675104, y: -0.20999998}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.828125, y: 2.8984375}
+    newSize: {x: 0.828125, y: 2.8984375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.36470684, y: 1.1477361}
+  m_EdgeRadius: 0
 --- !u!1 &951670276
 GameObject:
   m_ObjectHideFlags: 0
@@ -13829,7 +13854,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1083330013}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.049926758, y: 2.0711904, z: -10}
+  m_LocalPosition: {x: 0, y: 1.911, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15465,10 +15490,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1371904803}
   - component: {fileID: 1371904805}
-  - component: {fileID: 1371904804}
+  - component: {fileID: 1371904807}
+  - component: {fileID: 1371904806}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_19
-  m_TagString: Lian
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4
@@ -15488,35 +15514,6 @@ Transform:
   m_Father: {fileID: 968168049}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!68 &1371904804
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1371904802}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -0.3215096, y: 0.609829}
-  - {x: -0.055841923, y: 0.16530241}
-  - {x: 0.09549081, y: -0.0023726225}
-  - {x: 0.06376719, y: -0.26319304}
-  - {x: -0.1077196, y: -0.49499506}
-  - {x: 0.2445545, y: -0.4676761}
-  - {x: 0.41428944, y: -0.06204024}
-  - {x: 0.37192652, y: 0.14324202}
-  - {x: -0.0014045238, y: 0.62968266}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
 --- !u!212 &1371904805
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15569,6 +15566,44 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1371904806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371904802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9be4ff606f611ef468909f1fa5de99ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1371904807
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371904802}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.004031837, y: 0.074368596}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.84375, y: 2.8828125}
+    newSize: {x: 0.84375, y: 2.8828125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.44861138, y: 1.0287305}
+  m_EdgeRadius: 0
 --- !u!1 &1384159771
 GameObject:
   m_ObjectHideFlags: 0
@@ -16189,6 +16224,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1427195108
 GameObject:
   m_ObjectHideFlags: 0
@@ -16289,7 +16325,7 @@ GameObject:
   - component: {fileID: 1432994143}
   m_Layer: 0
   m_Name: "\u0421\u043B\u0430\u0439\u043C4"
-  m_TagString: Slime
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16400,6 +16436,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &1432994147
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16703,7 +16740,7 @@ GameObject:
   - component: {fileID: 1481924982}
   m_Layer: 0
   m_Name: "\u0413\u043B\u0430\u0432\u043D\u044B\u0439 \u0448\u0438\u043F"
-  m_TagString: Ship
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4
@@ -95086,7 +95123,7 @@ GameObject:
   - component: {fileID: 1612808046}
   m_Layer: 0
   m_Name: "\u0421\u043B\u0430\u0439\u043C2"
-  m_TagString: Slime
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95197,6 +95234,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &1612808050
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -95260,9 +95298,10 @@ GameObject:
   - component: {fileID: 1615905595}
   - component: {fileID: 1615905594}
   - component: {fileID: 1615905593}
+  - component: {fileID: 1615905596}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_18
-  m_TagString: Lian
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4
@@ -95360,6 +95399,18 @@ Transform:
   m_Father: {fileID: 968168049}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 18.004}
+--- !u!114 &1615905596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615905592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9be4ff606f611ef468909f1fa5de99ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1622392760
 GameObject:
   m_ObjectHideFlags: 0
@@ -95474,7 +95525,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 27025864}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1629604562
 SpriteRenderer:
@@ -96049,7 +96100,7 @@ GameObject:
   - component: {fileID: 1714059598}
   m_Layer: 0
   m_Name: "\u0421\u043B\u0430\u0439\u043C1"
-  m_TagString: Slime
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96074,6 +96125,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &1714059594
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -96400,46 +96452,15 @@ GameObject:
   m_Component:
   - component: {fileID: 1718226920}
   - component: {fileID: 1718226919}
-  - component: {fileID: 1718226918}
+  - component: {fileID: 1718226922}
+  - component: {fileID: 1718226921}
   m_Layer: 0
   m_Name: Mossy - Decorations&Hazards_20
-  m_TagString: Lian
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4
-  m_IsActive: 0
---- !u!68 &1718226918
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1718226917}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: 0.1692318, y: -0.8997096}
-  - {x: 0.24569839, y: -0.47680146}
-  - {x: 0.023250967, y: 0.006172627}
-  - {x: -0.051441915, y: 0.36462706}
-  - {x: 0.009215109, y: 0.6734176}
-  - {x: 0.18388462, y: 0.91483736}
-  - {x: -0.1566325, y: 0.9194613}
-  - {x: -0.29913664, y: 0.6647947}
-  - {x: -0.36982507, y: 0.26410684}
-  - {x: -0.2114377, y: -0.15200968}
-  - {x: -0.016679458, y: -0.4942773}
-  - {x: -0.10582283, y: -0.8935473}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
+  m_IsActive: 1
 --- !u!212 &1718226919
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -96507,6 +96528,44 @@ Transform:
   m_Father: {fileID: 968168049}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -91.192}
+--- !u!114 &1718226921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718226917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9be4ff606f611ef468909f1fa5de99ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1718226922
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718226917}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.021547161, y: -0.0059503317}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.828125, y: 2.8984375}
+    newSize: {x: 0.828125, y: 2.8984375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.40420407, y: 1.7439504}
+  m_EdgeRadius: 0
 --- !u!1 &1749761564
 GameObject:
   m_ObjectHideFlags: 0
@@ -96532,7 +96591,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1749761564}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.049926758, y: 2.0711904, z: -10}
+  m_LocalPosition: {x: 0, y: 1.911, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -96939,7 +96998,7 @@ GameObject:
   - component: {fileID: 1781625873}
   m_Layer: 0
   m_Name: "\u0421\u043B\u0430\u0439\u043C \u043C\u0438\u043D\u0438"
-  m_TagString: Slime
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97022,6 +97081,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &1781625876
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -97110,7 +97170,7 @@ GameObject:
   - component: {fileID: 1825100004}
   m_Layer: 0
   m_Name: "\u0421\u043B\u0430\u0439\u043C \u0441\u0442\u0435\u043D\u0430"
-  m_TagString: Slime
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97128,8 +97188,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 2
-  _upPosition: 0
-  _downPosition: 0
+  _upPosition: 43
+  _downPosition: 30
 --- !u!68 &1825100005
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -97187,7 +97247,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 7
 --- !u!95 &1825100007
 Animator:
   serializedVersion: 5
@@ -97208,6 +97268,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &1825100008
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -97268,7 +97329,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825100003}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: -0.7071068}
-  m_LocalPosition: {x: 2.6170654, y: 35.530243, z: 0}
+  m_LocalPosition: {x: 2.62, y: 36, z: 0}
   m_LocalScale: {x: 0.8000001, y: 0.8000001, z: 0.99999994}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -97481,7 +97542,7 @@ Transform:
   m_GameObject: {fileID: 1832204812}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.000061035156, y: 0.00018310547, z: 0}
-  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1559220967}
@@ -98049,9 +98110,10 @@ Transform:
   m_LocalPosition: {x: -0.9717057, y: -0.62336576, z: -0.2593408}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 276830897}
   m_Father: {fileID: 27025864}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 43.665}
 --- !u!212 &1928388466
 SpriteRenderer:

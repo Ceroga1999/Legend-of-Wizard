@@ -13,7 +13,7 @@ public class Enemy : MonoBehaviour
             if (_timeBetweenAttack <= 0)
             {
                 player.TakeDamage();
-                _timeBetweenAttack = 0.9f;
+                _timeBetweenAttack = 1;
             }
         }
     }

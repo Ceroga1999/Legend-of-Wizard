@@ -10,7 +10,11 @@ public class Gun : MonoBehaviour
     private void Update()
     {
         _rotation.z = Input.GetAxisRaw("Vertical");
-        _spawnPoint.eulerAngles = _rotation * 90;
+        if (Input.GetButton("Vertical"))
+        {
+            _spawnPoint.eulerAngles = _rotation * 90;
+        }
+
         if (Input.GetMouseButtonDown(0))
         {
             Instantiate(_bullet, _spawnPoint.position, _spawnPoint.rotation);

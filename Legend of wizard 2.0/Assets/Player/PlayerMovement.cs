@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
         if (_moveInput < 0)
         {
             gameObject.transform.localScale = new Vector3(-1, 1, 1);
-            _bulletSpawnPoint.localEulerAngles = new Vector3(0, 0, 180);
+            _bulletSpawnPoint.localEulerAngles = new Vector3(0, 0, -180);
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)

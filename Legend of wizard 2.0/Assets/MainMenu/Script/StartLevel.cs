@@ -8,8 +8,8 @@ public class StartLevel : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
-    public void ToSettings()
+    public void QuitGame()
     {
-        SceneManager.LoadScene(4);
+        Application.Quit();
     }
 }

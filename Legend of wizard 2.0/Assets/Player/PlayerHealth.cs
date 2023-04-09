@@ -8,15 +8,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void Start() => _healthBar = GetComponent<HealthBar>();
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.TryGetComponent(out Enemy enemy))
-        {
-            TakeDamage();
-        }
-    }
-
-    private void TakeDamage()
+    public void TakeDamage()
     {
         _health--;
         _healthBar.OnDamage();

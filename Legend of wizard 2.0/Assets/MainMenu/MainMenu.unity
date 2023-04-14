@@ -339,7 +339,10 @@ GameObject:
   - component: {fileID: 199547005}
   - component: {fileID: 199547004}
   - component: {fileID: 199547003}
+<<<<<<< HEAD
   - component: {fileID: 199547006}
+=======
+>>>>>>> 5e37d63b968a87637d25e0648de3268ac11f03e0
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -413,6 +416,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!114 &199547006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -425,6 +429,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5039a740dbd72f149a4f9aacf021113d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> 5e37d63b968a87637d25e0648de3268ac11f03e0
 --- !u!1 &318369577
 GameObject:
   m_ObjectHideFlags: 0
@@ -610,7 +616,11 @@ GameObject:
   m_IsActive: 1
 --- !u!95 &448297125
 Animator:
+<<<<<<< HEAD
   serializedVersion: 4
+=======
+  serializedVersion: 5
+>>>>>>> 5e37d63b968a87637d25e0648de3268ac11f03e0
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -627,7 +637,11 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+<<<<<<< HEAD
   m_KeepAnimatorControllerStateOnDisable: 0
+=======
+  m_KeepAnimatorStateOnDisable: 0
+>>>>>>> 5e37d63b968a87637d25e0648de3268ac11f03e0
 --- !u!212 &448297126
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1446,7 +1460,11 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+<<<<<<< HEAD
       - m_Target: {fileID: 199547006}
+=======
+      - m_Target: {fileID: 0}
+>>>>>>> 5e37d63b968a87637d25e0648de3268ac11f03e0
         m_TargetAssemblyTypeName: StartLevel, Assembly-CSharp
         m_MethodName: ToStart
         m_Mode: 1
@@ -1649,7 +1667,11 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
+<<<<<<< HEAD
   m_Camera: {fileID: 199547004}
+=======
+  m_Camera: {fileID: 0}
+>>>>>>> 5e37d63b968a87637d25e0648de3268ac11f03e0
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -2724,6 +2746,7 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+<<<<<<< HEAD
 --- !u!1 &1841884740
 GameObject:
   m_ObjectHideFlags: 0
@@ -2857,6 +2880,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1841884740}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> 5e37d63b968a87637d25e0648de3268ac11f03e0
 --- !u!1 &2044428950
 GameObject:
   m_ObjectHideFlags: 0

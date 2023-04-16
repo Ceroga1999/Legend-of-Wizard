@@ -141,7 +141,6 @@ GameObject:
   - component: {fileID: 1113058882626876481}
   - component: {fileID: 8055267729910359372}
   - component: {fileID: 8870022482044910248}
-  - component: {fileID: 7571563985742568676}
   - component: {fileID: 1113058882626876480}
   - component: {fileID: 1113058882626876483}
   m_Layer: 3
@@ -234,7 +233,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.24335158}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -245,7 +244,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8816882, y: 1.3565172}
+  m_Size: {x: 0.980947, y: 1.8432205}
   m_EdgeRadius: 0
 --- !u!58 &1113058882626876493
 CircleCollider2D:
@@ -260,9 +259,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.9}
+  m_Offset: {x: 0, y: -0.91445524}
   serializedVersion: 2
-  m_Radius: 0.35
+  m_Radius: 0.39120215
 --- !u!50 &1113058882626876490
 Rigidbody2D:
   serializedVersion: 4
@@ -325,21 +324,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8709becb04f837a449a3267250d85142, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bullet: {fileID: -1699004401293326356, guid: 7d149c6af30c9f142b2a77ca74523de5, type: 3}
+  _bullet: {fileID: 7797860084470981393, guid: a96ed526d76500f47b300a1a1794c870, type: 3}
   _spawnPoint: {fileID: 1216997320}
---- !u!114 &7571563985742568676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1113058882626876491}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c52c4f1b9703dc948a8c997d8959b0fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _heart: []
 --- !u!95 &1113058882626876480
 Animator:
   serializedVersion: 5
@@ -371,7 +357,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1ab8985b18b0e624280e7c9f46687c6d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d31580dd11be7a64690d7788e4a330ba, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.163
   m_Pitch: 1

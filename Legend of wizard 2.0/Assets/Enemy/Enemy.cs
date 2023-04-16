@@ -12,7 +12,7 @@ public class Enemy : MonoBehaviour
             _timeBetweenAttack -= Time.deltaTime;
             if (_timeBetweenAttack <= 0)
             {
-                player.TakeDamage();
+                player.TakeDamage(_damage);
                 _timeBetweenAttack = 1;
             }
         }

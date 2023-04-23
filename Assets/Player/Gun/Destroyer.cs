@@ -3,11 +3,11 @@ using UnityEngine;
 public class Destroyer : MonoBehaviour
 {
     [SerializeField] private float timeDie;
-    [SerializeField] private int Ischeznovenie;
+    [SerializeField] private int m_VanishingTime;
 
     private void Start()
     {
-        InvokeRepeating("Annihilator", timeDie, Ischeznovenie);
+        InvokeRepeating("Annihilator", timeDie, m_VanishingTime);
     }
     private void Annihilator() => Destroy(gameObject);
 

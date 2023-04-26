@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Администратор\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Администратор\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Legend of wizard 2.0.-1725408182.00" t="ExcludeRecursive" />
+    <e p="D:\Documents\GitHub\Legend-of-Wizard\Legend of wizard 2.0" t="IncludeRecursive">
+      <e p="AimingRig.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Enemy" t="Include">
+          <e p="Enemy.cs" t="Include" />
+          <e p="EnemyMovement.cs" t="Include" />
+        </e>
+        <e p="MainMenu" t="Include">
+          <e p="Script" t="Include">
+            <e p="StartLevel.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Player" t="Include">
+          <e p="Gun" t="Include">
+            <e p="Bullet.cs" t="Include" />
+            <e p="Destroyer.cs" t="Include" />
+            <e p="Gun.cs" t="Include" />
+            <e p="Rotation.cs" t="Include" />
+          </e>
+          <e p="HealthBar.cs" t="Include" />
+          <e p="MedicineCabinet.cs" t="Include" />
+          <e p="PlayerHealth.cs" t="Include" />
+          <e p="PlayerMovement.cs" t="Include" />
+        </e>
+        <e p="Prefab" t="Include" />
+        <e p="Samples" t="Include">
+          <e p="Cinemachine" t="Include">
+            <e p="2.8.9" t="Include">
+              <e p="Cinemachine Example Scenes" t="Include">
+                <e p="Scenes" t="Include">
+                  <e p="2D" t="Include">
+                    <e p="LoseSightWhenTargetsFallsOffThePlatform.cs" t="Include" />
+                    <e p="MouseScrollZoom2D.cs" t="Include" />
+                  </e>
+                  <e p="3rdPersonWithAimMode" t="Include">
+                    <e p="ActivateOnKeypress.cs" t="Include" />
+                  </e>
+                  <e p="AimingRig" t="Include">
+                    <e p="AimingRig.asmdef" t="Include" />
+                    <e p="AimReticle.cs" t="Include" />
+                  </e>
+                  <e p="Anywhere Door" t="Include">
+                    <e p="Materials" t="Include" />
+                    <e p="ScreenCutoutShader.shader" t="Include" />
+                    <e p="TagChanger.cs" t="Include" />
+                  </e>
+                  <e p="BossCamera" t="Include">
+                    <e p="BossLookAt.cs" t="Include" />
+                    <e p="CustomLockCameraY.cs" t="Include" />
+                  </e>
+                  <e p="CameraMagnets" t="Include">
+                    <e p="CameraMagnetProperty.cs" t="Include" />
+                    <e p="CameraMagnetTargetController.cs" t="Include" />
+                  </e>
+                  <e p="ClearShot" t="Include" />
+                  <e p="Custom Blends" t="Include" />
+                  <e p="DualTarget" t="Include">
+                    <e p="MoveAimTarget.cs" t="Include" />
+                    <e p="PointAtAimTarget.cs" t="Include" />
+                  </e>
+                  <e p="FadeOutNearbyObjects" t="Include">
+                    <e p="CinemachineFadeOutNearbyObjects.cs" t="Include" />
+                    <e p="FadeOut.shader" t="Include" />
+                  </e>
+                  <e p="Impulse" t="Include" />
+                  <e p="Scripting" t="Include">
+                    <e p="ScriptingExample.cs" t="Include" />
+                  </e>
+                  <e p="Timeline" t="Include" />
+                  <e p="Tracked Dolly" t="Include" />
+                  <e p="Transposer" t="Include" />
+                  <e p="Trigger volumes" t="Include">
+                    <e p="GenericTrigger.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Shared" t="Include">
+                  <e p="Animation" t="Include" />
+                  <e p="Blends" t="Include" />
+                  <e p="Materials" t="Include" />
+                  <e p="Models" t="Include">
+                    <e p="UnityCharacter" t="Include">
+                      <e p="Animations" t="Include" />
+                      <e p="Controllers" t="Include" />
+                      <e p="Models" t="Include">
+                        <e p="Materials" t="Include" />
+                        <e p="Textures" t="Include" />
+                      </e>
+                      <e p="Prefabs" t="Include" />
+                      <e p="Scripts" t="Include">
+                        <e p="CharacterMovement.cs" t="Include" />
+                        <e p="CharacterMovement2D.cs" t="Include" />
+                        <e p="CharacterMovementNoCamera.cs" t="Include" />
+                      </e>
+                    </e>
+                  </e>
+                  <e p="Prefabs" t="Include">
+                    <e p="FBX" t="Include" />
+                  </e>
+                  <e p="Scripts" t="Include">
+                    <e p="ActivateCameraWithDistance.cs" t="Include" />
+                    <e p="ActivateCamOnPlay.cs" t="Include" />
+                    <e p="ExampleHelpWindow.cs" t="Include" />
+                    <e p="InvokeEventFromInspector.cs" t="Include" />
+                    <e p="MixingCameraBlend.cs" t="Include" />
+                    <e p="SimpleElevator.cs" t="Include" />
+                    <e p="SpawnInCircle.cs" t="Include" />
+                    <e p="ThirdPersonFollowDistanceModifier.cs" t="Include" />
+                  </e>
+                  <e p="Textures" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Scene" t="Include" />
+        <e p="TextMesh Pro" t="Include">
+          <e p="Documentation" t="Include" />
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="Fonts &amp; Materials" t="Include" />
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Sprite Assets" t="Include" />
+            <e p="Style Sheets" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+            <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+            <e p="TMP_Bitmap.shader" t="Include" />
+            <e p="TMP_SDF Overlay.shader" t="Include" />
+            <e p="TMP_SDF SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+            <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface.shader" t="Include" />
+            <e p="TMP_SDF.shader" t="Include" />
+            <e p="TMP_Sprite.shader" t="Include" />
+            <e p="TMPro.cginc" t="Include" />
+            <e p="TMPro_Mobile.cginc" t="Include" />
+            <e p="TMPro_Properties.cginc" t="Include" />
+            <e p="TMPro_Surface.cginc" t="Include" />
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+            <e p="EmojiOne.json" t="Include" />
+          </e>
+        </e>
+        <e p="Анимации" t="Include">
+          <e p="гг" t="Include" />
+          <e p="Мох" t="Include" />
+          <e p="Пещеры" t="Include" />
+        </e>
+        <e p="Скрипты" t="Include">
+          <e p="Barrier.cs" t="Include" />
+          <e p="JumpPad.cs" t="Include" />
+          <e p="PlatformMovement.cs" t="Include" />
+        </e>
+        <e p="Текстуры" t="Include">
+          <e p="Материалы" t="Include">
+            <e p="Sound" t="Include" />
+          </e>
+          <e p="Растительная подстилка" t="Include">
+            <e p="Mossy Tileset" t="Include" />
+            <e p="Plant Animations" t="Include">
+              <e p="BlueFlower1" t="Include" />
+              <e p="BlueFlower2" t="Include" />
+              <e p="Plant 1" t="Include" />
+              <e p="Plant 2" t="Include" />
+              <e p="Plant 3" t="Include" />
+              <e p="Plant 4" t="Include" />
+              <e p="Plant 5" t="Include" />
+              <e p="Plant 6" t="Include" />
+              <e p="Plant 7" t="Include" />
+              <e p="Plant 8 Poison" t="Include" />
+              <e p="Plant Wind 1" t="Include" />
+              <e p="PlantJump" t="Include" />
+              <e p="PlantJump2" t="Include" />
+            </e>
+            <e p="Растение 10" t="Include" />
+            <e p="Растение 12" t="Include" />
+          </e>
+          <e p="Серый маг" t="Include">
+            <e p="BlueWizard" t="Include">
+              <e p="Бездействие" t="Include" />
+              <e p="Огонь" t="Include">
+                <e p="imgs" t="Include" />
+              </e>
+              <e p="Прыжки" t="Include" />
+              <e p="Хождение" t="Include" />
+            </e>
+          </e>
+          <e p="Слайм" t="Include">
+            <e p="Босс слайм" t="Include" />
+            <e p="Обычный слайм" t="Include" />
+          </e>
+          <e p="тайл мапы" t="Include" />
+          <e p="Тёмные пещеры" t="Include">
+            <e p="Assets 1024 Cave" t="Include" />
+            <e p="Vegetation" t="Include">
+              <e p="Comp 1" t="Include" />
+              <e p="Grass2" t="Include" />
+              <e p="Grass3" t="Include" />
+              <e p="Grass4" t="Include" />
+              <e p="Grass5" t="Include">
+                <e p="Almacenamiento automático de Adobe After Effects" t="Include" />
+              </e>
+              <e p="Group Plant" t="Include" />
+            </e>
+            <e p="Не трогаем!" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Legend of wizard 2.0.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

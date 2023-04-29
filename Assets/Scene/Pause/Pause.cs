@@ -2,20 +2,33 @@ using UnityEngine;
 
 public class Pause : MonoBehaviour
 {
-    public GameObject canvas;
-    bool pause = false;
+    [SerializeField] private GameObject _menu;
+    private bool _isPaused;
+    private static Pause _instanse;
 
-    void Update()
+    private void Awake()
+    {
+        if (_instanse != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        _instanse = this;
+        DontDestroyOnLoad(gameObject);
+    }
+
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            PauseOnOff();
+            PauseMenuEnableOrDisable();
         }    
     }
 
-    void PauseOnOff()
+    private void PauseMenuEnableOrDisable()
     {
-        pause = !pause;
-        canvas.SetActive(pause);
+        _isPaused = !_isPaused;
+        _menu.SetActive(_isPaused);
+        Time.timeScale = _isPaused == true ? 0 : 1;
     }
 }
